@@ -7,7 +7,7 @@
 		"xx-package-name-xx": "dist/bin/run.js"
 	},
 	"scripts": {
-		"build": "npm run lint; tsc; eslint 'dist/**/*.js'",
+		"build": "tsc; node ./replace-shebang.js; eslint 'dist/**/*.js'",
 		"lint": "eslint 'src/**/*.ts'",
 		"start": "ts-node ./src/bin/run.ts"
 	},
