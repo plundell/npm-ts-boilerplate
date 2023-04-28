@@ -16,8 +16,6 @@
 		"url": "git+https://github.com/xx-git-username-xx/xx-package-name-xx.git"
 	},
 	"keywords": [
-		"npm",
-		"module",
 		"cli"
 	],
 	"author": "",

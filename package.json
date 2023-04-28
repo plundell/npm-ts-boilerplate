@@ -1,18 +1,16 @@
 {
-	"name": "ts-npm-boilerplate",
-	"version": "1.0.0",
+	"name": "@plundell/npm-ts-boilerplate",
+	"version": "1.0.1",
 	"description": "A CLI tool to generate a TypeScript npm module boilerplate",
 	"bin": {
-		"ts-npm-boilerplate": "./bin/create.js"
+		"npm-ts-boilerplate": "./bin/create.js"
 	},
 	"keywords": [
 		"typescript",
 		"boilerplate",
-		"npm",
-		"module",
 		"cli"
 	],
-	"author": "Your Name",
+	"author": "plundell",
 	"license": "MIT",
 	"dependencies": {
 		"yargs": "^17.3.0",

@@ -30,7 +30,10 @@ cd xx-package-name-xx
 ```
 If you're forking the repo you should then:
 ```bash
-git remote add my-foo-fork https://github.com/my-github-user/new-repo-name.git #my-foo-fork is the alias for the remote
+gh repo create --source=. --push --public
+#or
+#use browser to login to github and create my-new-repo
+git remote add my-foo-fork https://github.com/my-github-user/my-new-repo.git #my-foo-fork is the alias for the remote
 git push -u my-foo-fork master #sets default remote and branch and pushes a copy there 
 
 ```
