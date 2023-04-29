@@ -1,6 +1,6 @@
 {
 	"name": "@plundell/npm-ts-boilerplate",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A CLI tool to generate a TypeScript npm module boilerplate",
 	"bin": {
 		"npm-ts-boilerplate": "./bin/create.js"
